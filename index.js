@@ -10,7 +10,7 @@ async function display(){
 
     // q = Popular Videos --> Popular%20Videos (%20 -> Space)
 
-    let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=popular%20videos&key=AIzaSyA00OxUbfdfVAjHn-9l48s0t-n_j7CBbNs&maxResults=25`);
+    let res = await fetch(`AIzaSyCCf3MjU8srSNs2fUuPVABDzIv9WiCWxow`);
 
     let data = await res.json();
     
